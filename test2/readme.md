@@ -6,3 +6,4 @@ To run the dashboard simulation on Windows, follow these steps:
 2. Locate and open `LvglWindowsSimulator.sln` in Visual Studio.
 3. To start the simulation, select **Start Local Windows Debugger** or **Start Without Debugging** from the Visual Studio menu.
 4. The source files for the menu are stored in `LvglWindowsSimulator/dashboard`.
+5. The "main" loop is located in `LvglWindowsSimulator.cpp` under `LvglWindowsSimulator`
