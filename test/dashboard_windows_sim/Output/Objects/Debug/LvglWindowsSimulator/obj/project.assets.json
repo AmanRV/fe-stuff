@@ -1,0 +1,619 @@
+{
+  "version": 3,
+  "targets": {
+    "native,Version=v0.0": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win-arm": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win-arm64": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win-x64": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win-x86": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win10-arm": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win10-arm64": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win10-x64": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win10-x86": {
+      "VC-LTL/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "YY-Thunks": "1.1.2",
+          "YY.NuGet.Import.Helper": "1.0.1"
+        },
+        "build": {
+          "build/native/VC-LTL.props": {}
+        }
+      },
+      "YY-Thunks/1.1.2": {
+        "type": "package",
+        "build": {
+          "build/native/YY-Thunks.targets": {}
+        }
+      },
+      "YY.NuGet.Import.Helper/1.0.1": {
+        "type": "package",
+        "build": {
+          "build/native/YY.NuGet.Import.Helper.props": {},
+          "build/native/YY.NuGet.Import.Helper.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VC-LTL/5.1.1": {
+      "sha512": "xzHOyVQwglPrc0elT8oavh8KWKvyDm9FyqEj1BprBIF4VSxngdVDOrkczHiaJZtwra5rWfqounNPQ4OGmpqMDQ==",
+      "type": "package",
+      "path": "vc-ltl/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/native/TargetPlatform/10.0.10240.0/header/vcruntime.h",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/libucrt.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/libucrtd.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/libucrtd.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/libvcruntime.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/libvcruntime.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/libvcruntimed.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/libvcruntimed.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/ucrt.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/ucrtd.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/vcruntime.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM/vcruntimed.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/libucrt.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/libucrtd.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/libucrtd.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/libvcruntime.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/libvcruntime.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/libvcruntimed.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/libvcruntimed.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/ucrt.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/ucrtd.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/vcruntime.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/ARM64/vcruntimed.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/libucrt.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/libucrtd.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/libucrtd.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/libvcruntime.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/libvcruntime.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/libvcruntimed.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/libvcruntimed.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/ucrt.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/ucrtd.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/vcruntime.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/Win32/vcruntimed.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/libucrt.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/libucrtd.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/libucrtd.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/libvcruntime.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/libvcruntime.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/libvcruntimed.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/libvcruntimed.pdb",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/ucrt.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/ucrtd.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/vcruntime.lib",
+        "build/native/TargetPlatform/10.0.10240.0/lib/x64/vcruntimed.lib",
+        "build/native/TargetPlatform/10.0.19041.0/header/vcruntime.h",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/libucrt.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/libucrtd.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/libucrtd.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/libvcruntime.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/libvcruntime.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/libvcruntimed.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/libvcruntimed.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/ucrt.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/ucrtd.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/vcruntime.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM/vcruntimed.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/libucrt.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/libucrtd.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/libucrtd.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/libvcruntime.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/libvcruntime.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/libvcruntimed.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/libvcruntimed.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/ucrt.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/ucrtd.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/vcruntime.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/ARM64/vcruntimed.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/libucrt.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/libucrtd.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/libucrtd.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/libvcruntime.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/libvcruntime.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/libvcruntimed.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/libvcruntimed.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/ucrt.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/ucrtd.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/vcruntime.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/Win32/vcruntimed.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/libucrt.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/libucrtd.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/libucrtd.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/libvcruntime.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/libvcruntime.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/libvcruntimed.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/libvcruntimed.pdb",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/ucrt.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/ucrtd.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/vcruntime.lib",
+        "build/native/TargetPlatform/10.0.19041.0/lib/x64/vcruntimed.lib",
+        "build/native/TargetPlatform/5.1.2600.0/header/vcruntime.h",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/libucrt.lib",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/libucrt.pdb",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/libucrtd.lib",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/libucrtd.pdb",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/libvcruntime.lib",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/libvcruntime.pdb",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/libvcruntimed.lib",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/libvcruntimed.pdb",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/ucrt.lib",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/ucrtd.lib",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/vcruntime.lib",
+        "build/native/TargetPlatform/5.1.2600.0/lib/Win32/vcruntimed.lib",
+        "build/native/TargetPlatform/5.2.3790.0/header/vcruntime.h",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/libucrt.lib",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/libucrt.pdb",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/libucrtd.lib",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/libucrtd.pdb",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/libvcruntime.lib",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/libvcruntime.pdb",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/libvcruntimed.lib",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/libvcruntimed.pdb",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/ucrt.lib",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/ucrtd.lib",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/vcruntime.lib",
+        "build/native/TargetPlatform/5.2.3790.0/lib/x64/vcruntimed.lib",
+        "build/native/TargetPlatform/6.0.6000.0/header/vcruntime.h",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/libucrt.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/libucrt.pdb",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/libucrtd.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/libucrtd.pdb",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/libvcruntime.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/libvcruntime.pdb",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/libvcruntimed.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/libvcruntimed.pdb",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/ucrt.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/ucrtd.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/vcruntime.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/Win32/vcruntimed.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/libucrt.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/libucrt.pdb",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/libucrtd.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/libucrtd.pdb",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/libvcruntime.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/libvcruntime.pdb",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/libvcruntimed.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/libvcruntimed.pdb",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/ucrt.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/ucrtd.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/vcruntime.lib",
+        "build/native/TargetPlatform/6.0.6000.0/lib/x64/vcruntimed.lib",
+        "build/native/TargetPlatform/6.2.9200.0/header/vcruntime.h",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/libucrt.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/libucrt.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/libucrtd.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/libucrtd.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/libvcruntime.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/libvcruntime.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/libvcruntimed.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/libvcruntimed.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/ucrt.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/ucrtd.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/vcruntime.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/ARM/vcruntimed.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/libucrt.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/libucrt.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/libucrtd.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/libucrtd.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/libvcruntime.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/libvcruntime.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/libvcruntimed.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/libvcruntimed.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/ucrt.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/ucrtd.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/vcruntime.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/Win32/vcruntimed.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/libucrt.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/libucrt.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/libucrtd.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/libucrtd.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/libvcruntime.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/libvcruntime.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/libvcruntimed.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/libvcruntimed.pdb",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/ucrt.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/ucrtd.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/vccorlib140.pacth.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/vcruntime.lib",
+        "build/native/TargetPlatform/6.2.9200.0/lib/x64/vcruntimed.lib",
+        "build/native/TargetPlatform/header/VC_LTL_Config.h",
+        "build/native/TargetPlatform/header/VC_LTL_Version.h",
+        "build/native/TargetPlatform/header/corecrt.h",
+        "build/native/VC-LTL.props",
+        "build/native/config/1033/VC-LTL-Options.xml",
+        "build/native/config/1033/config.string.props",
+        "build/native/config/1033/config.strings.ps1",
+        "build/native/config/2052/VC-LTL-Options.xml",
+        "build/native/config/2052/config.string.props",
+        "build/native/config/2052/config.strings.ps1",
+        "build/native/config/config.props",
+        "build/native/config/config.ps1",
+        "build/net8.0-windows7.0/VC-LTL.targets",
+        "images/logo-small.png",
+        "vc-ltl.5.1.1.nupkg.sha512",
+        "vc-ltl.nuspec"
+      ]
+    },
+    "YY-Thunks/1.1.2": {
+      "sha512": "uQG5INbhvdY7M6I5RpBKB3F14eiOlBvd/A+wHIsc/J9/KwvhvRl1EaWEBAmkABw9YzhXHl2IIAvvwNR4FlC4uw==",
+      "type": "package",
+      "path": "yy-thunks/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/native/Bin/MinimumRequiredVersionHelper.exe",
+        "build/native/YY-Thunks.targets",
+        "build/native/YY-Thunks_ui_D5D733D3-8829-4509-9C74-021E5685ED18.xml",
+        "build/native/objs/x64/YY_Thunks_for_Vista.obj",
+        "build/native/objs/x64/YY_Thunks_for_Win10.0.10240.obj",
+        "build/native/objs/x64/YY_Thunks_for_Win10.0.19041.obj",
+        "build/native/objs/x64/YY_Thunks_for_Win7.obj",
+        "build/native/objs/x64/YY_Thunks_for_Win8.obj",
+        "build/native/objs/x64/YY_Thunks_for_WinXP.obj",
+        "build/native/objs/x86/YY_Thunks_for_Vista.obj",
+        "build/native/objs/x86/YY_Thunks_for_Win10.0.10240.obj",
+        "build/native/objs/x86/YY_Thunks_for_Win10.0.19041.obj",
+        "build/native/objs/x86/YY_Thunks_for_Win2K.obj",
+        "build/native/objs/x86/YY_Thunks_for_Win7.obj",
+        "build/native/objs/x86/YY_Thunks_for_Win8.obj",
+        "build/native/objs/x86/YY_Thunks_for_WinXP.obj",
+        "build/net8.0-windows7.0/YY-Thunks.targets",
+        "yy-thunks.1.1.2.nupkg.sha512",
+        "yy-thunks.nuspec"
+      ]
+    },
+    "YY.NuGet.Import.Helper/1.0.1": {
+      "sha512": "tSrZenkLTo4Gfp541XSa0Nr4RlKqzgFf8fFmG43ercMnb16bq9U8EgMfyYY32gHN5XqWk5pTK3N6ZndO1KTq2Q==",
+      "type": "package",
+      "path": "yy.nuget.import.helper/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/native/Fallback/NuGetImportAfterCppProps.props",
+        "build/native/Fallback/NuGetImportAfterCppTargets.targets",
+        "build/native/Fallback/NuGetImportBeforeCppProps.props",
+        "build/native/Fallback/NuGetImportBeforeCppTargets.targets",
+        "build/native/Thunks/Downlevel/Microsoft.Cpp.ARM.user.props",
+        "build/native/Thunks/Downlevel/Microsoft.Cpp.ARM64.user.props",
+        "build/native/Thunks/Downlevel/Microsoft.Cpp.Win32.user.props",
+        "build/native/Thunks/Downlevel/Microsoft.Cpp.x64.user.props",
+        "build/native/Thunks/NuGetImportAfterCppProps.props",
+        "build/native/Thunks/NuGetImportAfterCppTargets.targets",
+        "build/native/Thunks/NuGetImportBeforeCppProps.props",
+        "build/native/Thunks/NuGetImportBeforeCppTargets.targets",
+        "build/native/YY.NuGet.Import.Helper.props",
+        "build/native/YY.NuGet.Import.Helper.targets",
+        "yy.nuget.import.helper.1.0.1.nupkg.sha512",
+        "yy.nuget.import.helper.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "native,Version=v0.0": [
+      "VC-LTL >= 5.1.1",
+      "YY-Thunks >= 1.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\amanv\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\amanv\\OneDrive - McMaster University\\Computer Engineering\\Formula Electric - Firmware\\lvgl_dashboard\\lv_port_pc_visual_studio\\LvglWindowsSimulator\\LvglWindowsSimulator.vcxproj",
+      "projectName": "LvglWindowsSimulator",
+      "projectPath": "C:\\Users\\amanv\\OneDrive - McMaster University\\Computer Engineering\\Formula Electric - Firmware\\lvgl_dashboard\\lv_port_pc_visual_studio\\LvglWindowsSimulator\\LvglWindowsSimulator.vcxproj",
+      "packagesPath": "C:\\Users\\amanv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\amanv\\OneDrive - McMaster University\\Computer Engineering\\Formula Electric - Firmware\\lvgl_dashboard\\lv_port_pc_visual_studio\\Output\\Objects\\Debug\\LvglWindowsSimulator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\amanv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "native"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "native": {
+          "projectReferences": {}
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "native": {
+        "dependencies": {
+          "VC-LTL": {
+            "target": "Package",
+            "version": "[5.1.1, )"
+          },
+          "YY-Thunks": {
+            "target": "Package",
+            "version": "[1.1.2, )"
+          }
+        },
+        "imports": [
+          "native",
+          "uap"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      },
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm64": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      }
+    }
+  }
+}

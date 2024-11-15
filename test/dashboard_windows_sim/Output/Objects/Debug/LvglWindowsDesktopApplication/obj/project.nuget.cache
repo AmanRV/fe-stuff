@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ueXv7ZNZ8G8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amanv\\OneDrive - McMaster University\\Computer Engineering\\Formula Electric - Firmware\\lvgl_dashboard\\lv_port_pc_visual_studio\\LvglWindowsDesktopApplication\\LvglWindowsDesktopApplication.vcxproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amanv\\.nuget\\packages\\vc-ltl\\5.1.1\\vc-ltl.5.1.1.nupkg.sha512",
+    "C:\\Users\\amanv\\.nuget\\packages\\yy-thunks\\1.1.2\\yy-thunks.1.1.2.nupkg.sha512",
+    "C:\\Users\\amanv\\.nuget\\packages\\yy.nuget.import.helper\\1.0.1\\yy.nuget.import.helper.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
